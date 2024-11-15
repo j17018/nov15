@@ -1,0 +1,29 @@
+#container{
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+}
+
+#waveform{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#rec{
+    margin-top: 30px;
+}
+
+.btnRec{
+    background-color: #7cf;
+    padding: 8px;
+    border:1px solid transparent;
+    width: 80px;
+    border-radius: 5px;
+    color: white;
+}
+
+.recording-bg{
+    background-color: blue;
+}

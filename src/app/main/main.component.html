@@ -1,0 +1,24 @@
+<div id="container">
+
+  <div #waveform></div> <!-- This will be the container for Wavesurfer -->
+
+  <p>Paga tu deuda ahora</p>
+
+  <app-conversation *ngFor="let item of conversations"
+  [obj]=item
+  [audioUrl]="item['url_audio']"
+  >
+  </app-conversation>
+
+  <div id="rec">
+    <button [ngClass]="{'recording-bg': isRecording}" (click)="toggleRecording()" class="btnRec">
+      {{ isRecording ? "Detener" : "Grabar" }}
+    </button>
+  </div>
+
+  <div *ngIf="audioUrl">
+    <h3>Grabación de Audio:</h3>
+    <audio controls [src]="audioUrl"></audio>
+  </div>
+  
+</div>

@@ -1,0 +1,51 @@
+.conv{
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+}
+
+.em-div{
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* emociones */
+.em{
+    border:1px solid rgba(0, 0, 0, .1);
+    background-color: rgb(238, 255, 255);
+    border-radius: 10px;
+    padding:5px;
+    margin: 4px;
+    float: right;
+}
+
+.userInput{
+    border:1px solid rgba(0, 0, 0, .1);
+    float: right;
+    width: 340px;
+    padding: 8px;
+    background-color: rgb(255, 247, 219);
+    border-radius: 10px;
+
+}
+
+.assistOutput{
+    border:1px solid rgba(0, 0, 0, .1);
+    float: left;
+    width: 340px;
+    padding: 8px;
+    background-color: rgb(224, 255, 231);
+    border-radius: 10px;
+
+}
+
+.disconnectMsg{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.075);
+    color: rgb(85, 85, 85);
+    padding: 10px;
+    border-radius: 5px;
+}
